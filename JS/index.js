@@ -45,16 +45,7 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-// Slider in Techstack
-const swiper = new swiper("#swiper-skills", {
-  direction: "horizontal",
-  loop: true,
-  speed: 6500,
-  freemode:true,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-  },
 
-});
+
+
 
