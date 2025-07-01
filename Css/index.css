@@ -865,7 +865,7 @@ ul {
   border-radius: 5px;
   margin-bottom: 15px;
 }
-.form-btn > a {
+.form-btn  {
   width: 100%;
   padding: 10px;
   background: var(--cart--color);

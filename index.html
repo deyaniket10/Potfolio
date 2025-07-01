@@ -331,17 +331,18 @@
             <div class="title2">Contact Me</div>
             <div class="row">
                 <div class="col2">
-                    <div class="form-items">
+                    <form action="https://api.web3forms.com/submit" method="post" class="form-items">
+                        <input type="hidden" name="access_key" value="cc9f6b06-f0eb-4c0e-96fa-95256b25ef81">
                         <label for="name"></label><br>
                         <input type="text" name="name" id="name" placeholder="Your Name">
                         <label for="email"></label><br>
                         <input type="email" name="email" id="email" placeholder="Your Email Address"><br>
                         <label for="message"></label><br>
                         <textarea name="message" id="message" placeholder="Message"></textarea>
-                        <div class="form-btn"><a href="#">
-                                Submit
-                            </a></div>
-                    </div>
+                        <button type="submit" class="form-btn">
+                            Submit
+                        </button>
+                    </form>
                 </div>
 
             </div>
